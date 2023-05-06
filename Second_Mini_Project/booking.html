@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Booking Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background: palegreen;
+    }
+ 
+           h1{
+            
+            text-align: center;
+            color:purple;
+           }
+           form{
+            background-color:mediumaquamarine;
+            width:400px;
+            height:200px;
+            border:1px solid black;
+            padding:30px;
+            margin-left:30px;
+            
+        }
+        
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="Home.html">Welcome to Our Hotel</a></h1>
+  </header>
+  <main>
+    <section>
+      <h2>Rooms and Pricing</h2>
+      <ul>
+        <li>Single Room: $100/night</li>
+        <li>Double Room: $150/night</li>
+        <li>Deluxe Room: $200/night</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Booking Form</h2>
+      <form>
+    <nav class="navbar">
+    <label for ="Name:"><b>Name</b></label>
+    <input type="text"  width="100px" Name = "name" required><br><br>
+    <label for = "Email"><b>Email</b></label>
+    <input type = "email" name = "email" width="300px" required><br><br>
+    <label for="Check-in-date"><b>Check-in-date</b></label>
+    <input type="date" name ="check-in" required><br><br>
+    <label for="check-out-date"><b>check-out-date</b></label>
+    <input type="date" name="check-out" required>
+   
+    <label for = "Rooms"><b>Room</b></label>
+    <select option = "Rooms">
+        <option value = "Single">Single</option>
+        <option value = "Dual">Dual</option>
+        <option value = "Deluxe">Deluxe</option><br><br>
+    <br><input type ="submit" value = "Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
+</html>
